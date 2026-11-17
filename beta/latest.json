@@ -1,8 +1,44 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0-beta.0",
   "channel": "beta",
-  "notes": "",
+  "pub_date": "2026-11-16T12:00:00Z",
+  "notes": "Primera beta para pruebas con datos de demostración. La descarga está disponible para macOS.\nUn mismo instalador sirve para Mac con Apple Silicon y con Intel.\nSi eres dueño o administrador, puedes elegir recibir versiones beta desde «Este equipo».\nEn «Este equipo» puedes medir la conexión al servicio y probar un lector que funciona como teclado.\nProblema conocido: «Ventas por persona» puede quedar sin detalle en staging aunque la venta aparezca en el total del turno.",
   "important": false,
-  "platforms": {},
-  "downloads": {}
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVdOYUx6U1RFZllhQUU1dTVoWDdwUDFKWkJzanprcXNEMS9TcFo2bHRvYnRsKzNJUFR1Z3BEZmtPS3A0cmxuRS9GUEo1K1dYbFQwRDREbW01YmQzOWtFUG5zV0RNWlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMTMxCWZpbGU6UG9zbG9jYWwuYXBwLnRhci5negl2ZXJzaW9uOjEuMC4wLWJldGEuMApKT3E4OExhWDBlaDNkb3hZeHRGSmlnSHRRbzdxVkwxNFhPZGRlQ0ttb0NZMWFwNHV3UG9uMEZoOE1EdVpNWUVHRXdVRWJTRG9LdmgvVk5MbHBjaTZBZz09Cg==",
+      "url": "https://github.com/Geniuscreativellc/poslocal-releases/releases/download/v1.0.0-beta.0/Poslocal_1.0.0-beta.0_universal.app.tar.gz",
+      "size": 13475534
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVdOYUx6U1RFZllhQUU1dTVoWDdwUDFKWkJzanprcXNEMS9TcFo2bHRvYnRsKzNJUFR1Z3BEZmtPS3A0cmxuRS9GUEo1K1dYbFQwRDREbW01YmQzOWtFUG5zV0RNWlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMTMxCWZpbGU6UG9zbG9jYWwuYXBwLnRhci5negl2ZXJzaW9uOjEuMC4wLWJldGEuMApKT3E4OExhWDBlaDNkb3hZeHRGSmlnSHRRbzdxVkwxNFhPZGRlQ0ttb0NZMWFwNHV3UG9uMEZoOE1EdVpNWUVHRXdVRWJTRG9LdmgvVk5MbHBjaTZBZz09Cg==",
+      "url": "https://github.com/Geniuscreativellc/poslocal-releases/releases/download/v1.0.0-beta.0/Poslocal_1.0.0-beta.0_universal.app.tar.gz",
+      "size": 13475534
+    }
+  },
+  "downloads": {
+    "macos": {
+      "url": "https://github.com/Geniuscreativellc/poslocal-releases/releases/download/v1.0.0-beta.0/Poslocal_1.0.0-beta.0_universal.dmg",
+      "file": "Poslocal_1.0.0-beta.0_universal.dmg",
+      "size": 13397029,
+      "sha256": "7d3182eb719d5abd20606ee0642e4dc89a19186494a7dc96a891c218d9379fbc"
+    }
+  },
+  "news": {
+    "all": [
+      "Primera beta para pruebas con datos de demostración. La descarga está disponible para macOS."
+    ],
+    "desktop": [
+      "Un mismo instalador sirve para Mac con Apple Silicon y con Intel.",
+      "Si eres dueño o administrador, puedes elegir recibir versiones beta desde «Este equipo»."
+    ],
+    "till": [
+      "En «Este equipo» puedes medir la conexión al servicio y probar un lector que funciona como teclado.",
+      "Problema conocido: «Ventas por persona» puede quedar sin detalle en staging aunque la venta aparezca en el total del turno."
+    ],
+    "portal": [
+      "«Sincronización» muestra la conexión con Poslocal, la última señal de cada caja y la versión que usa.",
+      "Desde Clientes puedes abrir WhatsApp con un mensaje listo si la persona autorizó ese canal."
+    ]
+  }
 }
